@@ -131,13 +131,13 @@ The above addition is to make ansible run the install-elk.yml playbook on a spec
 We update the /etc/ansible/files/filebeat-config.yml to include
 
 hosts: ["10.1.0.4:9200"]
-username: "elastic"
-password: "changeme"
+    username: "elastic"
+    password: "changeme"
 
 And 
 
 setup.kibana:
-  host: "10.1.0.4:5601"
+    host: "10.1.0.4:5601"
 
 Which will specify where the filbeat should be installed by specifying the Elk-VM IP.
 
