@@ -129,16 +129,15 @@ We update the /etc/ansible/hosts file to include
 The above addition is to make ansible run the install-elk.yml playbook on a specific elk machine
 
 We update the /etc/ansible/files/filebeat-config.yml to include
-=======
- hosts: ["10.1.0.4:9200"]
-  username: "elastic"
-  password: "changeme" # TODO: Change this to the password you set
-=======
-And
-=======
+
+hosts: ["10.1.0.4:9200"]
+username: "elastic"
+password: "changeme"
+
+And 
+
 setup.kibana:
-  host: "10.1.0.4:5601" # TODO: Change this to the IP address of your ELK server
-=======
+  host: "10.1.0.4:5601"
 
 Which will specify where the filbeat should be installed by specifying the Elk-VM IP.
 
