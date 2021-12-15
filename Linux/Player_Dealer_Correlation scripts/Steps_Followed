@@ -1,0 +1,1295 @@
+sysadmin@UbuntuDesktop:~$ pwd
+/home/sysadmin
+sysadmin@UbuntuDesktop:~$ ls
+Cybersecurity-Lesson-Plans  Desktop  Documents  Downloads  Music  Pictures  Public  python  research  Templates  Videos
+sysadmin@UbuntuDesktop:~$ mkdir Lucky_Duck_Investigations
+sysadmin@UbuntuDesktop:~$ ls
+Cybersecurity-Lesson-Plans  Desktop  Documents  Downloads  Lucky_Duck_Investigations  Music  Pictures  Public  python  research  Templates  Videos
+sysadmin@UbuntuDesktop:~$ cd Lucky_Duck_Investigations/
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations$ mkdir Roulette_Loss_Investigation
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations$ ls
+Roulette_Loss_Investigation
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations$ cd Roulette_Loss_Investigation/
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ ls
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ mkdir Player_Analysis
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ mkdir Dealer_Analysis
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ mkdir Player_Dealer_Correlation
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cd Player_Analysis/
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ touch Notes_Player_Analysis
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ cd ..
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cd Dealer_Analysis/
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ touch Notes_Dealer_Analysis
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cd ..
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cd Player_Dealer_Correlation/
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Dealer_Correlation$ touch Notes_Player_Dealer_Correlation
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Dealer_Correlation$ ls
+Notes_Player_Dealer_Correlation
+sysadmin@UbuntuDesktop:~$ 
+sysadmin@UbuntuDesktop:~$ wget "https://tinyurl.com/3-HW-setup-evidence" && chmod +x ./3-HW-setup-evidence && ./3-HW-setup-evidence
+--2021-09-28 13:44:05--  https://tinyurl.com/3-HW-setup-evidence
+Resolving tinyurl.com (tinyurl.com)... 104.20.139.65, 172.67.1.225, 104.20.138.65, ...
+Connecting to tinyurl.com (tinyurl.com)|104.20.139.65|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://gist.githubusercontent.com/eddimus/e57fcb9510dd18225142cb23f236da24/raw/39f7f71b22ae7997e92d82e57aedd02bbb6dd481/Setup_Evidence_Files.sh [following]
+--2021-09-28 13:44:05--  https://gist.githubusercontent.com/eddimus/e57fcb9510dd18225142cb23f236da24/raw/39f7f71b22ae7997e92d82e57aedd02bbb6dd481/Setup_Evidence_Files.sh
+Resolving gist.githubusercontent.com (gist.githubusercontent.com)... 185.199.108.133, 185.199.109.133, 185.199.110.133, ...
+Connecting to gist.githubusercontent.com (gist.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 32625 (32K) [text/plain]
+Saving to: ‘3-HW-setup-evidence’
+
+3-HW-setup-evidence                  100%[======================================================================>]  31.86K  --.-KB/s    in 0.005s  
+
+2021-09-28 13:44:06 (6.63 MB/s) - ‘3-HW-setup-evidence’ saved [32625/32625]
+
+sysadmin@UbuntuDesktop:~$ ls
+3-HW-setup-evidence         Dealer_Schedules_0310  Documents  Lucky_Duck_Investigations  Pictures  python    Roulette_Player_WinLoss_0310  Videos
+Cybersecurity-Lesson-Plans  Desktop                Downloads  Music                      Public    research  Templates
+sysadmin@UbuntuDesktop:~$ ls -ltr
+total 88
+drwxr-xr-x 2 sysadmin sysadmin  4096 Nov 12  2019 Videos
+drwxr-xr-x 2 sysadmin sysadmin  4096 Nov 12  2019 Templates
+drwxr-xr-x 2 sysadmin sysadmin  4096 Nov 12  2019 Public
+drwxr-xr-x 2 sysadmin sysadmin  4096 Nov 12  2019 Pictures
+drwxr-xr-x 2 sysadmin sysadmin  4096 Nov 12  2019 Music
+drwxr-xr-x 3 sysadmin sysadmin  4096 May 14 16:34 Cybersecurity-Lesson-Plans
+drwxr-xr-x 2 sysadmin sysadmin  4096 May 14 16:34 Downloads
+drwxr-xr-x 7 sysadmin sysadmin  4096 May 14 16:36 Documents
+drwxr-xr-x 2 sysadmin sysadmin  4096 May 14 16:36 Desktop
+drwxr-xr-x 5 sysadmin sysadmin  4096 May 14 16:41 python
+drwxr-xr-x 2 sysadmin sysadmin  4096 Sep 23 23:08 research
+drwxr-xr-x 3 sysadmin sysadmin  4096 Sep 28 13:41 Lucky_Duck_Investigations
+-rwxr-xr-x 1 sysadmin sysadmin 32625 Sep 28 13:44 3-HW-setup-evidence
+drwxr-xr-x 2 sysadmin sysadmin  4096 Sep 28 13:44 Dealer_Schedules_0310
+drwxr-xr-x 2 sysadmin sysadmin  4096 Sep 28 13:44 Roulette_Player_WinLoss_0310
+sysadmin@UbuntuDesktop:~$ cd Dealer_Schedules_0310/
+sysadmin@UbuntuDesktop:~/Dealer_Schedules_0310$ ls
+0310_Dealer_schedule  0312_Dealer_schedule  0314_Dealer_schedule  0316_Dealer_schedule
+0311_Dealer_schedule  0313_Dealer_schedule  0315_Dealer_schedule  0317_Dealer_schedule
+sysadmin@UbuntuDesktop:~/Dealer_Schedules_0310$ 
+sysadmin@UbuntuDesktop:~/Dealer_Schedules_0310$ ls -ltr
+total 32
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0310_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0312_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0311_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0314_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0313_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0317_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0316_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0315_Dealer_schedule
+sysadmin@UbuntuDesktop:~/Dealer_Schedules_0310$ 
+sysadmin@UbuntuDesktop:~/Dealer_Schedules_0310$ mv 0310_Dealer_schedule 0312_Dealer_schedule 0315_Dealer_schedule ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/
+Dealer_Analysis/           Player_Analysis/           Player_Dealer_Correlation/ 
+sysadmin@UbuntuDesktop:~/Dealer_Schedules_0310$ mv 0310_Dealer_schedule 0312_Dealer_schedule 0315_Dealer_schedule ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/
+sysadmin@UbuntuDesktop:~/Dealer_Schedules_0310$ 
+sysadmin@UbuntuDesktop:~/Dealer_Schedules_0310$ 
+sysadmin@UbuntuDesktop:~/Dealer_Schedules_0310$ 
+sysadmin@UbuntuDesktop:~/Dealer_Schedules_0310$ ls ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/
+0310_Dealer_schedule  0312_Dealer_schedule  0315_Dealer_schedule  Notes_Dealer_Analysis
+sysadmin@UbuntuDesktop:~/Dealer_Schedules_0310$ cd
+sysadmin@UbuntuDesktop:~$ 
+sysadmin@UbuntuDesktop:~$ cd Roulette_Player_WinLoss_0310/
+sysadmin@UbuntuDesktop:~/Roulette_Player_WinLoss_0310$ ls
+0310_win_loss_player_data  0312_win_loss_player_data  0314_win_loss_player_data  0316_win_loss_player_data
+0311_win_loss_player_data  0313_win_loss_player_data  0315_win_loss_player_data  0317_win_loss_player_data
+sysadmin@UbuntuDesktop:~/Roulette_Player_WinLoss_0310$ ls -ltr
+total 32
+-rw-r--r-- 1 sysadmin sysadmin 2379 Sep 28 13:44 0312_win_loss_player_data
+-rw-r--r-- 1 sysadmin sysadmin 2425 Sep 28 13:44 0311_win_loss_player_data
+-rw-r--r-- 1 sysadmin sysadmin 2319 Sep 28 13:44 0310_win_loss_player_data
+-rw-r--r-- 1 sysadmin sysadmin 2426 Sep 28 13:44 0317_win_loss_player_data
+-rw-r--r-- 1 sysadmin sysadmin 2426 Sep 28 13:44 0316_win_loss_player_data
+-rw-r--r-- 1 sysadmin sysadmin 2310 Sep 28 13:44 0315_win_loss_player_data
+-rw-r--r-- 1 sysadmin sysadmin 2426 Sep 28 13:44 0314_win_loss_player_data
+-rw-r--r-- 1 sysadmin sysadmin 2426 Sep 28 13:44 0313_win_loss_player_data
+sysadmin@UbuntuDesktop:~/Roulette_Player_WinLoss_0310$ 
+sysadmin@UbuntuDesktop:~/Roulette_Player_WinLoss_0310$ 
+sysadmin@UbuntuDesktop:~/Roulette_Player_WinLoss_0310$ mv 0312_win_loss_player_data ^C
+sysadmin@UbuntuDesktop:~/Roulette_Player_WinLoss_0310$ mv 0310_win_loss_player_data 0312_win_loss_player_data 0315_win_loss_player_data ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis/
+sysadmin@UbuntuDesktop:~/Roulette_Player_WinLoss_0310$ ls ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis/
+0310_win_loss_player_data  0312_win_loss_player_data  0315_win_loss_player_data  Notes_Player_Analysis
+sysadmin@UbuntuDesktop:~/Roulette_Player_WinLoss_0310$ 
+sysadmin@UbuntuDesktop:~/Roulette_Player_WinLoss_0310$ 
+sysadmin@UbuntuDesktop:~/Roulette_Player_WinLoss_0310$ cd 
+sysadmin@UbuntuDesktop:~$ cd Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis/
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ ls
+0310_win_loss_player_data  0312_win_loss_player_data  0315_win_loss_player_data  Notes_Player_Analysis
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ less 0310_win_loss_player_data 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ grep *-* *
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ grep -* *
+grep: invalid option -- '*'
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ grep -iR ^C
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ vi 031
+0310_win_loss_player_data  0312_win_loss_player_data  0315_win_loss_player_data  
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ vi 0310_win_loss_player_data 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ grep -iR wget "https://tinyurl.com/3-HW-setup-evidence" && chmod +x ./3-HW-setup-evidence && ./3-HW-setup-evidence^C
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ grep -iR *-$* .
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ grep -iR *-$* *
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ grep -iR *-$* 0310_win_loss_player_data 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ grep -iR -$* 0310_win_loss_player_data 
+05:00:00 AM	-$82,348	Amirah Schneider,Nola Portillo, Mylie Schmidt,Suhayb Maguire,Millicent Betts,Avi Graves
+08:00:00 AM	-$97,383	Chanelle Tapia, Shelley Dodson , Valentino Smith, Mylie Schmidt
+02:00:00 PM	-$82,348	Jaden Clarkson, Kaidan Sheridan, Mylie Schmidt 
+08:00:00 PM	-$65,348        Mylie Schmidt, Trixie Velasquez, Jerome Klein ,Rahma Buckley
+11:00:00 PM	-$88,383	Mcfadden Wasim, Norman Cooper, Mylie Schmidt
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ grep -$* *
+0310_win_loss_player_data:05:00:00 AM	-$82,348	Amirah Schneider,Nola Portillo, Mylie Schmidt,Suhayb Maguire,Millicent Betts,Avi Graves
+0310_win_loss_player_data:08:00:00 AM	-$97,383	Chanelle Tapia, Shelley Dodson , Valentino Smith, Mylie Schmidt
+0310_win_loss_player_data:02:00:00 PM	-$82,348	Jaden Clarkson, Kaidan Sheridan, Mylie Schmidt 
+0310_win_loss_player_data:08:00:00 PM	-$65,348        Mylie Schmidt, Trixie Velasquez, Jerome Klein ,Rahma Buckley
+0310_win_loss_player_data:11:00:00 PM	-$88,383	Mcfadden Wasim, Norman Cooper, Mylie Schmidt
+0312_win_loss_player_data:05:00:00 AM	-$182,300	Montana Kirk, Alysia Goodman, Halima Little, Etienne Brady, Mylie Schmidt
+0312_win_loss_player_data:08:00:00 AM	-$97,383        Rimsha Gardiner,Fern Cleveland, Mylie Schmidt,Kobe Higgins	
+0312_win_loss_player_data:02:00:00 PM	-$82,348        Mae Hail,  Mylie Schmidt,Ayden Beil	
+0312_win_loss_player_data:08:00:00 PM	-$65,792        Tallulah Rawlings,Josie Dawe, Mylie Schmidt,Hakim Stott, Esther Callaghan, Ciaron Villanueva
+0312_win_loss_player_data:11:00:00 PM	-$88,229        Vlad Hatfield,Kerys Frazier,Mya Butler, Mylie Schmidt,Lex Oakley,Elin Wormald	
+0315_win_loss_player_data:05:00:00 AM	-$82,844        Arjan Guzman,Sommer Mann, Mylie Schmidt	
+0315_win_loss_player_data:08:00:00 AM	-$97,001        Lilianna Devlin,Brendan Lester, Mylie Schmidt,Blade Robertson,Derrick Schroeder	
+0315_win_loss_player_data:02:00:00 PM	-$182,419        Mylie Schmidt, Corey Huffman
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ grep -$* * > Roulette_Losses
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ cat Roulette_Losses 
+0310_win_loss_player_data:05:00:00 AM	-$82,348	Amirah Schneider,Nola Portillo, Mylie Schmidt,Suhayb Maguire,Millicent Betts,Avi Graves
+0310_win_loss_player_data:08:00:00 AM	-$97,383	Chanelle Tapia, Shelley Dodson , Valentino Smith, Mylie Schmidt
+0310_win_loss_player_data:02:00:00 PM	-$82,348	Jaden Clarkson, Kaidan Sheridan, Mylie Schmidt 
+0310_win_loss_player_data:08:00:00 PM	-$65,348        Mylie Schmidt, Trixie Velasquez, Jerome Klein ,Rahma Buckley
+0310_win_loss_player_data:11:00:00 PM	-$88,383	Mcfadden Wasim, Norman Cooper, Mylie Schmidt
+0312_win_loss_player_data:05:00:00 AM	-$182,300	Montana Kirk, Alysia Goodman, Halima Little, Etienne Brady, Mylie Schmidt
+0312_win_loss_player_data:08:00:00 AM	-$97,383        Rimsha Gardiner,Fern Cleveland, Mylie Schmidt,Kobe Higgins	
+0312_win_loss_player_data:02:00:00 PM	-$82,348        Mae Hail,  Mylie Schmidt,Ayden Beil	
+0312_win_loss_player_data:08:00:00 PM	-$65,792        Tallulah Rawlings,Josie Dawe, Mylie Schmidt,Hakim Stott, Esther Callaghan, Ciaron Villanueva
+0312_win_loss_player_data:11:00:00 PM	-$88,229        Vlad Hatfield,Kerys Frazier,Mya Butler, Mylie Schmidt,Lex Oakley,Elin Wormald	
+0315_win_loss_player_data:05:00:00 AM	-$82,844        Arjan Guzman,Sommer Mann, Mylie Schmidt	
+0315_win_loss_player_data:08:00:00 AM	-$97,001        Lilianna Devlin,Brendan Lester, Mylie Schmidt,Blade Robertson,Derrick Schroeder	
+0315_win_loss_player_data:02:00:00 PM	-$182,419        Mylie Schmidt, Corey Huffman
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ vi 0315_win_loss_player_data 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ grep -o -i "Mylie Schmidt" Roulette_Losses | wc -l
+13
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ grep -i "Mylie Schmidt" 0310_win_loss_player_data 0312_win_loss_player_data 0315_win_loss_player_data | wc -l
+19
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ grep -i "Mylie Schmidt" 0310_win_loss_player_data | wc -l
+7
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ grep -i "Mylie Schmidt" 0312_win_loss_player_data | wc -l
+7
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ grep -i "Mylie Schmidt" 0315_win_loss_player_data | wc -l
+5
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ vi 0310_win_loss_player_data 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ grep -i "Mylie Schmidt" 0315_win_loss_player_data | wc -l^C
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ vi Notes_Player_Analysis 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ vi Notes_Player_Analysis 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ cd ..
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cd Dealer_Analysis/
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ ls
+0310_Dealer_schedule  0312_Dealer_schedule  0315_Dealer_schedule  Notes_Dealer_Analysis
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ less 0310_Dealer_schedule 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cd ..
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cd Player_Analysis/
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ ls
+0310_win_loss_player_data  0312_win_loss_player_data  0315_win_loss_player_data  Notes_Player_Analysis  Roulette_Losses
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ vi Roulette_Losses 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ less Roulette_Losses 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ cat Roulette_Losses 
+0310_win_loss_player_data:05:00:00 AM	-$82,348	Amirah Schneider,Nola Portillo, Mylie Schmidt,Suhayb Maguire,Millicent Betts,Avi Graves
+0310_win_loss_player_data:08:00:00 AM	-$97,383	Chanelle Tapia, Shelley Dodson , Valentino Smith, Mylie Schmidt
+0310_win_loss_player_data:02:00:00 PM	-$82,348	Jaden Clarkson, Kaidan Sheridan, Mylie Schmidt 
+0310_win_loss_player_data:08:00:00 PM	-$65,348        Mylie Schmidt, Trixie Velasquez, Jerome Klein ,Rahma Buckley
+0310_win_loss_player_data:11:00:00 PM	-$88,383	Mcfadden Wasim, Norman Cooper, Mylie Schmidt
+0312_win_loss_player_data:05:00:00 AM	-$182,300	Montana Kirk, Alysia Goodman, Halima Little, Etienne Brady, Mylie Schmidt
+0312_win_loss_player_data:08:00:00 AM	-$97,383        Rimsha Gardiner,Fern Cleveland, Mylie Schmidt,Kobe Higgins	
+0312_win_loss_player_data:02:00:00 PM	-$82,348        Mae Hail,  Mylie Schmidt,Ayden Beil	
+0312_win_loss_player_data:08:00:00 PM	-$65,792        Tallulah Rawlings,Josie Dawe, Mylie Schmidt,Hakim Stott, Esther Callaghan, Ciaron Villanueva
+0312_win_loss_player_data:11:00:00 PM	-$88,229        Vlad Hatfield,Kerys Frazier,Mya Butler, Mylie Schmidt,Lex Oakley,Elin Wormald	
+0315_win_loss_player_data:05:00:00 AM	-$82,844        Arjan Guzman,Sommer Mann, Mylie Schmidt	
+0315_win_loss_player_data:08:00:00 AM	-$97,001        Lilianna Devlin,Brendan Lester, Mylie Schmidt,Blade Robertson,Derrick Schroeder	
+0315_win_loss_player_data:02:00:00 PM	-$182,419        Mylie Schmidt, Corey Huffman
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ cd ..
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cd Dealer_Analysis/
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ touch 0310_5am.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F '{print $^C
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0310_^C
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat 0310_
+0310_5am.sh           0310_Dealer_schedule  
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat 0310_Dealer_schedule 
+Hour AM/PM	BlackJack_Dealer_FNAME LAST	Roulette_Dealer_FNAME LAST	Texas_Hold_EM_dealer_FNAME LAST
+
+12:00:00 AM	Izabela Parrish	Marlene Mcpherson	Madina Britton
+01:00:00 AM	Billy Jones	Saima Mcdermott	Summer-Louise Hammond
+02:00:00 AM	Summer-Louise Hammond	Abigale Rich	John-James Hayward
+03:00:00 AM	John-James Hayward	Evalyn Howell	Chyna Mercado
+04:00:00 AM	Chyna Mercado	Cleveland Hanna	Katey Bean
+05:00:00 AM	Katey Bean	Billy Jones	Evalyn Howell
+06:00:00 AM	Evalyn Howell	Saima Mcdermott	Cleveland Hanna
+07:00:00 AM	Cleveland Hanna	Abigale Rich	Billy Jones
+08:00:00 AM	Rahima Figueroa	Billy Jones	Madina Britton
+09:00:00 AM	Marlene Mcpherson	Cleveland Hanna	Summer-Louise Hammond
+10:00:00 AM	Izabela Parrish	Madina Britton	John-James Hayward
+11:00:00 AM	Madina Britton	Summer-Louise Hammond	Chyna Mercado
+12:00:00 PM	Summer-Louise Hammond	John-James Hayward	Katey Bean
+01:00:00 PM	John-James Hayward	Chyna Mercado	Evalyn Howell
+02:00:00 PM	Chyna Mercado	Billy Jones	Cleveland Hanna
+03:00:00 PM	Katey Bean	Evalyn Howell	Rahima Figueroa
+04:00:00 PM	Evalyn Howell	Cleveland Hanna	Billy Jones
+05:00:00 PM	Billy Jones	Rahima Figueroa	Summer-Louise Hammond
+06:00:00 PM	Rahima Figueroa	John-James Hayward	John-James Hayward
+07:00:00 PM	Marlene Mcpherson	Chyna Mercado	Chyna Mercado
+08:00:00 PM	Saima Mcdermott	Billy Jones	Katey Bean
+09:00:00 PM	Abigale Rich	Evalyn Howell	Billy Jones
+10:00:00 PM	Evalyn Howell	Katey Bean	Cleveland Hanna
+11:00:00 PM	Cleveland Hanna	Billy Jones	Rahima Figueroa
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F '{print $1 $2 $5 $6}' 0310_Dealer_schedule 0312_Dealer_schedule 0315_Dealer_schedule 
+Hour AM/PM	BlackJack_Dealer_FNAME LAST	Roulette_Dealer_FNAME LAST	Texas_Hold_EM_dealer_FNAME LAST
+
+12:00:00 AM	Izabela Parrish	Marlene Mcpherson	Madina Britton
+01:00:00 AM	Billy Jones	Saima Mcdermott	Summer-Louise Hammond
+02:00:00 AM	Summer-Louise Hammond	Abigale Rich	John-James Hayward
+03:00:00 AM	John-James Hayward	Evalyn Howell	Chyna Mercado
+04:00:00 AM	Chyna Mercado	Cleveland Hanna	Katey Bean
+05:00:00 AM	Katey Bean	Billy Jones	Evalyn Howell
+06:00:00 AM	Evalyn Howell	Saima Mcdermott	Cleveland Hanna
+07:00:00 AM	Cleveland Hanna	Abigale Rich	Billy Jones
+08:00:00 AM	Rahima Figueroa	Billy Jones	Madina Britton
+09:00:00 AM	Marlene Mcpherson	Cleveland Hanna	Summer-Louise Hammond
+10:00:00 AM	Izabela Parrish	Madina Britton	John-James Hayward
+11:00:00 AM	Madina Britton	Summer-Louise Hammond	Chyna Mercado
+12:00:00 PM	Summer-Louise Hammond	John-James Hayward	Katey Bean
+01:00:00 PM	John-James Hayward	Chyna Mercado	Evalyn Howell
+02:00:00 PM	Chyna Mercado	Billy Jones	Cleveland Hanna
+03:00:00 PM	Katey Bean	Evalyn Howell	Rahima Figueroa
+04:00:00 PM	Evalyn Howell	Cleveland Hanna	Billy Jones
+05:00:00 PM	Billy Jones	Rahima Figueroa	Summer-Louise Hammond
+06:00:00 PM	Rahima Figueroa	John-James Hayward	John-James Hayward
+07:00:00 PM	Marlene Mcpherson	Chyna Mercado	Chyna Mercado
+08:00:00 PM	Saima Mcdermott	Billy Jones	Katey Bean
+09:00:00 PM	Abigale Rich	Evalyn Howell	Billy Jones
+10:00:00 PM	Evalyn Howell	Katey Bean	Cleveland Hanna
+11:00:00 PM	Cleveland Hanna	Billy Jones	Rahima Figueroa
+Hour AM/PM	BlackJack_Dealer_FNAME LAST	Roulette_Dealer_FNAME LAST	Texas_Hold_EM_dealer_FNAME LAST
+
+12:00:00 AM	Izabela Parrish	Marlene Mcpherson	Madina Britton
+01:00:00 AM	Billy Jones	Saima Mcdermott	Summer-Louise Hammond
+02:00:00 AM	Summer-Louise Hammond	Abigale Rich	John-James Hayward
+03:00:00 AM	John-James Hayward	Evalyn Howell	Chyna Mercado
+04:00:00 AM	Chyna Mercado	Cleveland Hanna	Katey Bean
+05:00:00 AM	Katey Bean	Billy Jones	Evalyn Howell
+06:00:00 AM	Evalyn Howell	Saima Mcdermott	Cleveland Hanna
+07:00:00 AM	Cleveland Hanna	Abigale Rich	Billy Jones
+08:00:00 AM	Rahima Figueroa	Billy Jones	Madina Britton
+09:00:00 AM	Marlene Mcpherson	Cleveland Hanna	Summer-Louise Hammond
+10:00:00 AM	Izabela Parrish	Madina Britton	John-James Hayward
+11:00:00 AM	Madina Britton	Summer-Louise Hammond	Chyna Mercado
+12:00:00 PM	Summer-Louise Hammond	John-James Hayward	Katey Bean
+01:00:00 PM	John-James Hayward	Chyna Mercado	Evalyn Howell
+02:00:00 PM	Chyna Mercado	Billy Jones	Cleveland Hanna
+03:00:00 PM	Katey Bean	Evalyn Howell	Rahima Figueroa
+04:00:00 PM	Evalyn Howell	Cleveland Hanna	Billy Jones
+05:00:00 PM	Billy Jones	Rahima Figueroa	Summer-Louise Hammond
+06:00:00 PM	Rahima Figueroa	John-James Hayward	John-James Hayward
+07:00:00 PM	Marlene Mcpherson	Chyna Mercado	Chyna Mercado
+08:00:00 PM	Saima Mcdermott	Billy Jones	Katey Bean
+09:00:00 PM	Abigale Rich	Evalyn Howell	Billy Jones
+10:00:00 PM	Evalyn Howell	Katey Bean	Cleveland Hanna
+11:00:00 PM	Cleveland Hanna	Billy Jones	Rahima Figueroa
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F '{print $1 $2 $5 $6}' 0310_Dealer_schedule
+^C
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F '{print $1,$2,$5,$6}' 0310_Dealer_schedule
+^C
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' 0310_Dealer_schedule 
+Hour AM/PM Roulette_Dealer_FNAME LAST
+   
+12:00:00 AM Marlene Mcpherson
+01:00:00 AM Saima Mcdermott
+02:00:00 AM Abigale Rich
+03:00:00 AM Evalyn Howell
+04:00:00 AM Cleveland Hanna
+05:00:00 AM Billy Jones
+06:00:00 AM Saima Mcdermott
+07:00:00 AM Abigale Rich
+08:00:00 AM Billy Jones
+09:00:00 AM Cleveland Hanna
+10:00:00 AM Madina Britton
+11:00:00 AM Summer-Louise Hammond
+12:00:00 PM John-James Hayward
+01:00:00 PM Chyna Mercado
+02:00:00 PM Billy Jones
+03:00:00 PM Evalyn Howell
+04:00:00 PM Cleveland Hanna
+05:00:00 PM Rahima Figueroa
+06:00:00 PM John-James Hayward
+07:00:00 PM Chyna Mercado
+08:00:00 PM Billy Jones
+09:00:00 PM Evalyn Howell
+10:00:00 PM Katey Bean
+11:00:00 PM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' 0310_Dealer_schedule| grep 05:00:00 
+05:00:00 AM Billy Jones
+05:00:00 PM Rahima Figueroa
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' 0310_Dealer_schedule| grep 05:00:00 | grep AM
+05:00:00 AM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' 0310_Dealer_schedule| grep 05:00:00 AM
+grep: AM: No such file or directory
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' 0310_Dealer_schedule| grep "05:00:00 AM"
+05:00:00 AM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' 0310_Dealer_schedule| grep "*5* AM"
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' 0310_Dealer_schedule| grep "*5* AM"
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' 0310_Dealer_schedule| grep "5* AM"
+Hour AM/PM Roulette_Dealer_FNAME LAST
+12:00:00 AM Marlene Mcpherson
+01:00:00 AM Saima Mcdermott
+02:00:00 AM Abigale Rich
+03:00:00 AM Evalyn Howell
+04:00:00 AM Cleveland Hanna
+05:00:00 AM Billy Jones
+06:00:00 AM Saima Mcdermott
+07:00:00 AM Abigale Rich
+08:00:00 AM Billy Jones
+09:00:00 AM Cleveland Hanna
+10:00:00 AM Madina Britton
+11:00:00 AM Summer-Louise Hammond
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' 0310_Dealer_schedule| grep "05* AM"
+12:00:00 AM Marlene Mcpherson
+01:00:00 AM Saima Mcdermott
+02:00:00 AM Abigale Rich
+03:00:00 AM Evalyn Howell
+04:00:00 AM Cleveland Hanna
+05:00:00 AM Billy Jones
+06:00:00 AM Saima Mcdermott
+07:00:00 AM Abigale Rich
+08:00:00 AM Billy Jones
+09:00:00 AM Cleveland Hanna
+10:00:00 AM Madina Britton
+11:00:00 AM Summer-Louise Hammond
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' 0310_Dealer_schedule| grep "05 AM"
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' 0310_Dealer_schedule| grep *05* AM"
+> ^C
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' 0310_Dealer_schedule| grep "*05* AM"
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' 0310_Dealer_schedule| grep "05 AM"
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' 0310_Dealer_schedule| grep "05* AM"
+12:00:00 AM Marlene Mcpherson
+01:00:00 AM Saima Mcdermott
+02:00:00 AM Abigale Rich
+03:00:00 AM Evalyn Howell
+04:00:00 AM Cleveland Hanna
+05:00:00 AM Billy Jones
+06:00:00 AM Saima Mcdermott
+07:00:00 AM Abigale Rich
+08:00:00 AM Billy Jones
+09:00:00 AM Cleveland Hanna
+10:00:00 AM Madina Britton
+11:00:00 AM Summer-Louise Hammond
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' 0310_Dealer_schedule| grep "05: AM"
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' 0310_Dealer_schedule| grep "05:00:00" | grep "AM"
+05:00:00 AM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule| grep "05:00:00" | grep "AM" > 0310_
+0310_5am.sh           0310_Dealer_schedule  
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule| grep "05:00:00" | grep "AM" > 0310_5am.sh
+cat: invalid option -- 'F'
+Try 'cat --help' for more information.
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0310_5am.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0310_5am.sh 
+05:00:00 AM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cp 0310_
+cp: missing destination file operand after '0310_'
+Try 'cp --help' for more information.
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis/Roulette_Losses 
+0310_win_loss_player_data:05:00:00 AM	-$82,348	Amirah Schneider,Nola Portillo, Mylie Schmidt,Suhayb Maguire,Millicent Betts,Avi Graves
+0310_win_loss_player_data:08:00:00 AM	-$97,383	Chanelle Tapia, Shelley Dodson , Valentino Smith, Mylie Schmidt
+0310_win_loss_player_data:02:00:00 PM	-$82,348	Jaden Clarkson, Kaidan Sheridan, Mylie Schmidt 
+0310_win_loss_player_data:08:00:00 PM	-$65,348        Mylie Schmidt, Trixie Velasquez, Jerome Klein ,Rahma Buckley
+0310_win_loss_player_data:11:00:00 PM	-$88,383	Mcfadden Wasim, Norman Cooper, Mylie Schmidt
+0312_win_loss_player_data:05:00:00 AM	-$182,300	Montana Kirk, Alysia Goodman, Halima Little, Etienne Brady, Mylie Schmidt
+0312_win_loss_player_data:08:00:00 AM	-$97,383        Rimsha Gardiner,Fern Cleveland, Mylie Schmidt,Kobe Higgins	
+0312_win_loss_player_data:02:00:00 PM	-$82,348        Mae Hail,  Mylie Schmidt,Ayden Beil	
+0312_win_loss_player_data:08:00:00 PM	-$65,792        Tallulah Rawlings,Josie Dawe, Mylie Schmidt,Hakim Stott, Esther Callaghan, Ciaron Villanueva
+0312_win_loss_player_data:11:00:00 PM	-$88,229        Vlad Hatfield,Kerys Frazier,Mya Butler, Mylie Schmidt,Lex Oakley,Elin Wormald	
+0315_win_loss_player_data:05:00:00 AM	-$82,844        Arjan Guzman,Sommer Mann, Mylie Schmidt	
+0315_win_loss_player_data:08:00:00 AM	-$97,001        Lilianna Devlin,Brendan Lester, Mylie Schmidt,Blade Robertson,Derrick Schroeder	
+0315_win_loss_player_data:02:00:00 PM	-$182,419        Mylie Schmidt, Corey Huffman
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cp 0310_5am.sh 0310_8am.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cp 0310_5am.sh 0310_2pm.sh 0310_8pm.sh 0310_11pm.sh
+cp: target '0310_11pm.sh' is not a directory
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cp 0310_5am.sh 0310_2pm.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cp 0310_5am.sh 0310_8pm.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cp 0310_5am.sh 0310_11pm.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cp 0310_5am.sh 0312_5am.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cp 0310_5am.sh 0312_8am.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cp 0310_5am.sh 0312_2pm.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cp 0310_5am.sh 0312_8pm.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cp 0310_5am.sh 0312_11pm.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cp 0310_5am.sh 0315_5am.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cp 0310_5am.sh 0315_8am.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cp 0310_5am.sh 0315_2pm.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ ls -ltr
+total 64
+-rw-r--r-- 1 sysadmin sysadmin    0 Sep 28 13:42 Notes_Dealer_Analysis
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0310_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0312_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0315_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 14:53 0310_5am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 14:55 0310_8am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 14:56 0310_2pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 14:56 0310_8pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 14:56 0310_11pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 14:57 0312_5am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 14:57 0312_8am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 14:57 0312_2pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 14:57 0312_8pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 14:57 0312_11pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 14:58 0315_5am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 14:58 0315_8am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 14:58 0315_2pm.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0310_5am.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0310_8am.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0310_2pm.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0310_2pm.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0310_8pm.sh 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0310_11pm.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0310_11pm.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0312_5am.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0312_5am.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0312_5am.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0312_8am.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0312_8am.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0312_2pm.sh 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0312_8pm.sh 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0312_11pm.sh 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0315_5am.sh 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0315_8am.sh 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0315_2pm.sh 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat *.sh
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule| grep "11:00:00" | grep "PM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule| grep "02:00:00" | grep "PM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule | grep "05:00:00" | grep "AM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule| grep "08:00:00" | grep "AM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule| grep "08:00:00" | grep "PM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0312_Dealer_schedule| grep "11:00:00" | grep "PM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0312_Dealer_schedule| grep "08:00:00" | grep "PM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0312_Dealer_schedule| grep "05:00:00" | grep "AM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0312_Dealer_schedule | grep "08:00:00" | grep "AM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0312_Dealer_schedule| grep "08:00:00" | grep "PM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0315_Dealer_schedule| grep "02:00:00" | grep "PM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0315_Dealer_schedule| grep "05:00:00" | grep "AM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0315_Dealer_schedule| grep "08:00:00" | grep "AM"
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat *.sh | ls -ltr
+total 64
+-rw-r--r-- 1 sysadmin sysadmin    0 Sep 28 13:42 Notes_Dealer_Analysis
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0310_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0312_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0315_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin  168 Sep 28 14:59 0310_5am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 14:59 0310_8am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:00 0310_2pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:01 0310_8pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:01 0310_11pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:03 0312_5am.sh
+-rw-r--r-- 1 sysadmin sysadmin  168 Sep 28 15:03 0312_8am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:04 0312_2pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:05 0312_8pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:05 0312_11pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:06 0315_5am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:06 0315_8am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:07 0315_2pm.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat 0310_5am.sh 
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule | grep "05:00:00" | grep "AM"
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat 0310_*.sh 
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule| grep "11:00:00" | grep "PM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule| grep "02:00:00" | grep "PM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule | grep "05:00:00" | grep "AM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule| grep "08:00:00" | grep "AM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule| grep "08:00:00" | grep "PM"
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat 0312_*.sh 
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0312_Dealer_schedule| grep "11:00:00" | grep "PM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0312_Dealer_schedule| grep "02:00:00" | grep "PM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0312_Dealer_schedule| grep "05:00:00" | grep "AM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0312_Dealer_schedule | grep "08:00:00" | grep "AM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0312_Dealer_schedule| grep "08:00:00" | grep "PM"
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat 0315*.sh
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0315_Dealer_schedule| grep "02:00:00" | grep "PM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0315_Dealer_schedule| grep "05:00:00" | grep "AM"
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0315_Dealer_schedule| grep "08:00:00" | grep "AM"
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0310_11pm.sh ^C
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh *.sh 
+11:00:00 PM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh *.sh *
+11:00:00 PM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 031*.sh
+11:00:00 PM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0310_5am.sh & 
+0310_11pm.sh           0310_8am.sh            0312_11pm.sh           0312_8am.sh            0315_2pm.sh            0315_Dealer_schedule   
+0310_2pm.sh            0310_8pm.sh            0312_2pm.sh            0312_8pm.sh            0315_5am.sh            Notes_Dealer_Analysis  
+0310_5am.sh            0310_Dealer_schedule   0312_5am.sh            0312_Dealer_schedule   0315_8am.sh            
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0310_5am.sh & 
+0310_11pm.sh           0310_8am.sh            0312_11pm.sh           0312_8am.sh            0315_2pm.sh            0315_Dealer_schedule   
+0310_2pm.sh            0310_8pm.sh            0312_2pm.sh            0312_8pm.sh            0315_5am.sh            Notes_Dealer_Analysis  
+0310_5am.sh            0310_Dealer_schedule   0312_5am.sh            0312_Dealer_schedule   0315_8am.sh            
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0310_5am.sh & 0312_8am.sh
+[1] 9088
+05:00:00 AM Billy Jones
+0312_8am.sh: command not found
+[1]+  Done                    sh 0310_5am.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0310_5am.sh 
+05:00:00 AM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0310_8am.sh 
+08:00:00 AM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0310_2pm.sh 
+02:00:00 PM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0310_8pm.sh 
+08:00:00 PM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0310_11pm.sh 
+11:00:00 PM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0312_5pm.sh 
+sh: 0: Can't open 0312_5pm.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0312_5am.sh 
+05:00:00 AM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0310*.sh >> Dealers_working_during_losses
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat Dealers_working_during_losses 
+11:00:00 PM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat Dealers_working_during_losses ^C
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ rm Dealers_working_during_losses 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0310_5am.sh >> Dealers_working_during_losses
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat Dealers_working_during_losses 
+05:00:00 AM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0310_8am.sh >> Dealers_working_during_losses 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat Dealers_working_during_losses 
+05:00:00 AM Billy Jones
+08:00:00 AM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0310_2pm.sh >> Dealers_working_during_losses 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0310_8pm.sh >> Dealers_working_during_losses 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0310_11pm.sh >> Dealers_working_during_losses 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat Dealers_working_during_losses 
+05:00:00 AM Billy Jones
+08:00:00 AM Billy Jones
+02:00:00 PM Billy Jones
+08:00:00 PM Billy Jones
+11:00:00 PM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0312_5am.sh >> Dealers_working_during_losses 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0312_8am.sh >> Dealers_working_during_losses 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0312_2pm.sh >> Dealers_working_during_losses 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0312_8pm.sh >> Dealers_working_during_losses 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0312_11pm.sh >> Dealers_working_during_losses 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0315_5am.sh >> Dealers_working_during_losses 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0315_8am.sh >> Dealers_working_during_losses 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh 0315_2pm.sh >> Dealers_working_during_losses 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat Dealers_working_during_losses 
+05:00:00 AM Billy Jones
+08:00:00 AM Billy Jones
+02:00:00 PM Billy Jones
+08:00:00 PM Billy Jones
+11:00:00 PM Billy Jones
+05:00:00 AM Billy Jones
+08:00:00 AM Billy Jones
+02:00:00 PM Billy Jones
+08:00:00 PM Billy Jones
+11:00:00 PM Billy Jones
+05:00:00 AM Billy Jones
+08:00:00 AM Billy Jones
+02:00:00 PM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi Notes_Dealer_Analysis
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cd ..
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cat Dealer_Analysis/Notes_Dealer_Analysis 
+/* Analysis of Dealers_working_during_losses file */
+
+1.The primary dealer working at the times where losses occurred
+
+"Billy Jones" is the person working at all times when losses occurred
+
+2.How many times the dealer worked when major losses occurred
+He has worked all "13 times" when the Major loses has occured
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cat Player_Analysis/Notes_Player_Analysis 
+/* Analysis of the Roulette_Losses */
+
+1.The times that loses occured on each day
+	0310 -	5 times
+	0312 -	5 times
+	0315 - 	3 times
+
+2.If there is a certain player that was playing during each of those times
+"Mylie Schdmit" is a player who has played on all these days.
+
+3.The total count of times this player was playing
+
+Command : grep -i "Mylie Schmidt" 0310_win_loss_player_data 0312_win_loss_player_data 0315_win_loss_player_data | wc -l
+
+Number of times the person played combining 0310, 0312 and 0315 - 19 times
+Number of times the person played on 0310 	- 	7 times
+Number of times the person played on 0312	-	7 times
+Number of times the person played on 0315	-	5 times
+
+
+
+
+
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cd Dealer_Analysis/
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ ls
+0310_11pm.sh  0310_5am.sh  0310_8pm.sh           0312_11pm.sh  0312_5am.sh  0312_8pm.sh           0315_2pm.sh  0315_8am.sh           Dealers_working_during_losses
+0310_2pm.sh   0310_8am.sh  0310_Dealer_schedule  0312_2pm.sh   0312_8am.sh  0312_Dealer_schedule  0315_5am.sh  0315_Dealer_schedule  Notes_Dealer_Analysis
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ touch roulette_dealer_finder_by_time.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cp 0310_5am.sh roulette_dealer_finder_by_time.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi roulette_dealer_finder_by_time.sh 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat roulette_dealer_finder_by_time.sh 
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/$0_Dealer_schedule | grep "$1 $2" | grep "AM"
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule | grep "05:00:00 AM"
+05:00:00 AM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi roulette_dealer_finder_by_time.sh 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time.sh 0310 05:00:00:00 AM
+awk: cannot open /home/sysadmin/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/roulette_dealer_finder_by_time.sh_Dealer_schedule (No such file or directory)
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh ./roulette_dealer_finder_by_time.sh 0310 05:00:00:00 AM
+awk: cannot open /home/sysadmin/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/./roulette_dealer_finder_by_time.sh_Dealer_schedule (No such file or directory)
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh ^Culette_dealer_finder_by_time.sh 0310 05:00:00:00 AM
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ chmod +x roulette_dealer_finder_by_time.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ ./roulette_dealer_finder_by_time.sh 0310 05:00:00:00 AM
+bash: ./roulette_dealer_finder_by_time.sh: /bin/bash/: bad interpreter: Not a directory
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ ./roulette_dealer_finder_by_time.sh 0310 05:00:00:00 AM^C
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat roulette_dealer_finder_by_time.sh 
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/$0_Dealer_schedule | grep "$1 $2"
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ ls | grep Dealer_schedule
+0310_Dealer_schedule
+0312_Dealer_schedule
+0315_Dealer_schedule
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cd ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ ls -ltr
+total 76
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0310_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0312_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0315_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin  168 Sep 28 14:59 0310_5am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 14:59 0310_8am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:00 0310_2pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:01 0310_8pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:01 0310_11pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:03 0312_5am.sh
+-rw-r--r-- 1 sysadmin sysadmin  168 Sep 28 15:03 0312_8am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:05 0312_8pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:05 0312_11pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:06 0315_5am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:06 0315_8am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:07 0315_2pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:11 0312_2pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  312 Sep 28 15:20 Dealers_working_during_losses
+-rw-r--r-- 1 sysadmin sysadmin  314 Sep 28 15:24 Notes_Dealer_Analysis
+-rwxr-xr-x 1 sysadmin sysadmin  151 Sep 28 16:36 roulette_dealer_finder_by_time.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0310_Dealer_schedule 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0310_Dealer_schedule ^C
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi roulette_dealer_finder_by_time.sh 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ ./roulette_dealer_finder_by_time.sh 0310 05:00:00 AM
+bash: ./roulette_dealer_finder_by_time.sh: /bin/bash/: bad interpreter: Not a directory
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi roulette_dealer_finder_by_time.sh 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ ./roulette_dealer_finder_by_time.sh 0310 05:00:00 AM
+awk: cannot open /home/sysadmin/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/./roulette_dealer_finder_by_time.sh_Dealer_schedule (No such file or directory)
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ .sh roulette_dealer_finder_by_time.sh 0310 05:00:00 AM
+
+Command '.sh' not found, but there are 17 similar ones.
+
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time.sh 0310 05:00:00 AM
+awk: cannot open /home/sysadmin/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/roulette_dealer_finder_by_time.sh_Dealer_schedule (No such file or directory)
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi roulette_dealer_finder_by_time.sh 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time.sh 0310 05:00:00 AM
+05:00:00 AM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time.sh 0311 05:00:00 AM
+awk: cannot open /home/sysadmin/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0311_Dealer_schedule (No such file or directory)
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time.sh 0311 05:00:00 AM^C
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time.sh 0311 02:00:00 AM
+awk: cannot open /home/sysadmin/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0311_Dealer_schedule (No such file or directory)
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time.sh 0311 09:00:00 AM
+awk: cannot open /home/sysadmin/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0311_Dealer_schedule (No such file or directory)
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 
+0310_11pm.sh                       0310_Dealer_schedule               0312_8pm.sh                        0315_Dealer_schedule
+0310_2pm.sh                        0312_11pm.sh                       0312_Dealer_schedule               Dealers_working_during_losses
+0310_5am.sh                        0312_2pm.sh                        0315_2pm.sh                        Notes_Dealer_Analysis
+0310_8am.sh                        0312_5am.sh                        0315_5am.sh                        roulette_dealer_finder_by_time.sh
+0310_8pm.sh                        0312_8am.sh                        0315_8am.sh                        
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0310_Dealer_schedule 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time.sh 0311 12:00:00 AM
+awk: cannot open /home/sysadmin/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0311_Dealer_schedule (No such file or directory)
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time.sh 0311 12:00:00 A^C
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0310_Dealer_schedule 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time.sh 0310 12:00:00 AM
+12:00:00 AM Marlene Mcpherson
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi roulette_dealer_finder_by_time.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time.sh 0310 12 AM
+12:00:00 AM Marlene Mcpherson
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cd ..
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ ls
+Dealer_Analysis  Player_Analysis  Player_Dealer_Correlation
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ touch roulette_dealer_finder_by_time_and_game.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cp Dealer_Analysis/0310_
+0310_11pm.sh          0310_2pm.sh           0310_5am.sh           0310_8am.sh           0310_8pm.sh           0310_Dealer_schedule  
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cp Dealer_Analysis/0310_11pm.sh roulette_dealer_finder_by_time_and_game.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cat roulette_dealer_finder_by_time_and_game.sh 
+#!/bin/bash/
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule| grep "11:00:00" | grep "PM"
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cp Dealer_Analysis/ roulette_dealer_finder_by_time_and_game.sh 
+0310_11pm.sh                       0310_Dealer_schedule               0312_8pm.sh                        0315_Dealer_schedule
+0310_2pm.sh                        0312_11pm.sh                       0312_Dealer_schedule               Dealers_working_during_losses
+0310_5am.sh                        0312_2pm.sh                        0315_2pm.sh                        Notes_Dealer_Analysis
+0310_8am.sh                        0312_5am.sh                        0315_5am.sh                        roulette_dealer_finder_by_time.sh
+0310_8pm.sh                        0312_8am.sh                        0315_8am.sh                        
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cp Dealer_Analysis/roulette_dealer_finder_by_time.sh^Coulette_dealer_finder_by_time_and_game.sh 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cd Dealer_Analysis/
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cp roulette_dealer_finder_by_time.sh ^Csktop:~/Lucky_Duck_Investigatsysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cp roulette_dealer_finder_by_time.sh roulette_dealer_finder_by_time_and_game.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat roulette_dealer_finder_by_time_and_game.sh 
+#!/bin/bash
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/$1_Dealer_schedule | grep "$2:00:00 $3"
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ ls -ltr
+total 80
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0310_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0312_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0315_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin  168 Sep 28 14:59 0310_5am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 14:59 0310_8am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:00 0310_2pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:01 0310_8pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:01 0310_11pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:03 0312_5am.sh
+-rw-r--r-- 1 sysadmin sysadmin  168 Sep 28 15:03 0312_8am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:05 0312_8pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:05 0312_11pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:06 0315_5am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:06 0315_8am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:07 0315_2pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:11 0312_2pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  312 Sep 28 15:20 Dealers_working_during_losses
+-rw-r--r-- 1 sysadmin sysadmin  314 Sep 28 15:24 Notes_Dealer_Analysis
+-rwxr-xr-x 1 sysadmin sysadmin  156 Sep 28 16:53 roulette_dealer_finder_by_time.sh
+-rwxr-xr-x 1 sysadmin sysadmin  156 Sep 28 17:25 roulette_dealer_finder_by_time_and_game.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0310_5am.sh 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 0310_Dealer_schedule
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat 0310_Dealer_schedule
+Hour AM/PM	BlackJack_Dealer_FNAME LAST	Roulette_Dealer_FNAME LAST	Texas_Hold_EM_dealer_FNAME LAST
+
+12:00:00 AM	Izabela Parrish	Marlene Mcpherson	Madina Britton
+01:00:00 AM	Billy Jones	Saima Mcdermott	Summer-Louise Hammond
+02:00:00 AM	Summer-Louise Hammond	Abigale Rich	John-James Hayward
+03:00:00 AM	John-James Hayward	Evalyn Howell	Chyna Mercado
+04:00:00 AM	Chyna Mercado	Cleveland Hanna	Katey Bean
+05:00:00 AM	Katey Bean	Billy Jones	Evalyn Howell
+06:00:00 AM	Evalyn Howell	Saima Mcdermott	Cleveland Hanna
+07:00:00 AM	Cleveland Hanna	Abigale Rich	Billy Jones
+08:00:00 AM	Rahima Figueroa	Billy Jones	Madina Britton
+09:00:00 AM	Marlene Mcpherson	Cleveland Hanna	Summer-Louise Hammond
+10:00:00 AM	Izabela Parrish	Madina Britton	John-James Hayward
+11:00:00 AM	Madina Britton	Summer-Louise Hammond	Chyna Mercado
+12:00:00 PM	Summer-Louise Hammond	John-James Hayward	Katey Bean
+01:00:00 PM	John-James Hayward	Chyna Mercado	Evalyn Howell
+02:00:00 PM	Chyna Mercado	Billy Jones	Cleveland Hanna
+03:00:00 PM	Katey Bean	Evalyn Howell	Rahima Figueroa
+04:00:00 PM	Evalyn Howell	Cleveland Hanna	Billy Jones
+05:00:00 PM	Billy Jones	Rahima Figueroa	Summer-Louise Hammond
+06:00:00 PM	Rahima Figueroa	John-James Hayward	John-James Hayward
+07:00:00 PM	Marlene Mcpherson	Chyna Mercado	Chyna Mercado
+08:00:00 PM	Saima Mcdermott	Billy Jones	Katey Bean
+09:00:00 PM	Abigale Rich	Evalyn Howell	Billy Jones
+10:00:00 PM	Evalyn Howell	Katey Bean	Cleveland Hanna
+11:00:00 PM	Cleveland Hanna	Billy Jones	Rahima Figueroa
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat roulette_dealer_finder_by_time.sh 
+#!/bin/bash
+awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/$1_Dealer_schedule | grep "$2:00:00 $3"
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi roulette_dealer_finder_by_time_and_game.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_
+0310_11pm.sh          0310_2pm.sh           0310_5am.sh           0310_8am.sh           0310_8pm.sh           0310_Dealer_schedule  
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_5am.sh 
+#!/bin/bash/   
+awk -F" $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_
+0310_11pm.sh          0310_2pm.sh           0310_5am.sh           0310_8am.sh           0310_8pm.sh           0310_Dealer_schedule  
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F" " '{print $1,$2,$5,$6}' ~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule
+Hour AM/PM Roulette_Dealer_FNAME LAST
+   
+12:00:00 AM Marlene Mcpherson
+01:00:00 AM Saima Mcdermott
+02:00:00 AM Abigale Rich
+03:00:00 AM Evalyn Howell
+04:00:00 AM Cleveland Hanna
+05:00:00 AM Billy Jones
+06:00:00 AM Saima Mcdermott
+07:00:00 AM Abigale Rich
+08:00:00 AM Billy Jones
+09:00:00 AM Cleveland Hanna
+10:00:00 AM Madina Britton
+11:00:00 AM Summer-Louise Hammond
+12:00:00 PM John-James Hayward
+01:00:00 PM Chyna Mercado
+02:00:00 PM Billy Jones
+03:00:00 PM Evalyn Howell
+04:00:00 PM Cleveland Hanna
+05:00:00 PM Rahima Figueroa
+06:00:00 PM John-James Hayward
+07:00:00 PM Chyna Mercado
+08:00:00 PM Billy Jones
+09:00:00 PM Evalyn Howell
+10:00:00 PM Katey Bean
+11:00:00 PM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi ^C
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat 0310_Dealer_schedule
+Hour AM/PM	BlackJack_Dealer_FNAME LAST	Roulette_Dealer_FNAME LAST	Texas_Hold_EM_dealer_FNAME LAST
+
+12:00:00 AM	Izabela Parrish	Marlene Mcpherson	Madina Britton
+01:00:00 AM	Billy Jones	Saima Mcdermott	Summer-Louise Hammond
+02:00:00 AM	Summer-Louise Hammond	Abigale Rich	John-James Hayward
+03:00:00 AM	John-James Hayward	Evalyn Howell	Chyna Mercado
+04:00:00 AM	Chyna Mercado	Cleveland Hanna	Katey Bean
+05:00:00 AM	Katey Bean	Billy Jones	Evalyn Howell
+06:00:00 AM	Evalyn Howell	Saima Mcdermott	Cleveland Hanna
+07:00:00 AM	Cleveland Hanna	Abigale Rich	Billy Jones
+08:00:00 AM	Rahima Figueroa	Billy Jones	Madina Britton
+09:00:00 AM	Marlene Mcpherson	Cleveland Hanna	Summer-Louise Hammond
+10:00:00 AM	Izabela Parrish	Madina Britton	John-James Hayward
+11:00:00 AM	Madina Britton	Summer-Louise Hammond	Chyna Mercado
+12:00:00 PM	Summer-Louise Hammond	John-James Hayward	Katey Bean
+01:00:00 PM	John-James Hayward	Chyna Mercado	Evalyn Howell
+02:00:00 PM	Chyna Mercado	Billy Jones	Cleveland Hanna
+03:00:00 PM	Katey Bean	Evalyn Howell	Rahima Figueroa
+04:00:00 PM	Evalyn Howell	Cleveland Hanna	Billy Jones
+05:00:00 PM	Billy Jones	Rahima Figueroa	Summer-Louise Hammond
+06:00:00 PM	Rahima Figueroa	John-James Hayward	John-James Hayward
+07:00:00 PM	Marlene Mcpherson	Chyna Mercado	Chyna Mercado
+08:00:00 PM	Saima Mcdermott	Billy Jones	Katey Bean
+09:00:00 PM	Abigale Rich	Evalyn Howell	Billy Jones
+10:00:00 PM	Evalyn Howell	Katey Bean	Cleveland Hanna
+11:00:00 PM	Cleveland Hanna	Billy Jones	Rahima Figueroa
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi 
+0310_11pm.sh                                0312_2pm.sh                                 0315_8am.sh
+0310_2pm.sh                                 0312_5am.sh                                 0315_Dealer_schedule
+0310_5am.sh                                 0312_8am.sh                                 Dealers_working_during_losses
+0310_8am.sh                                 0312_8pm.sh                                 Notes_Dealer_Analysis
+0310_8pm.sh                                 0312_Dealer_schedule                        roulette_dealer_finder_by_time_and_game.sh
+0310_Dealer_schedule                        0315_2pm.sh                                 roulette_dealer_finder_by_time.sh
+0312_11pm.sh                                0315_5am.sh                                 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi roulette_dealer_finder_by_time_and_game.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi roulette_dealer_finder_by_time_and_game.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time.sh 0310 05 AM Roulette
+05:00:00 AM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time.sh 0311 05 AM Roulette
+awk: cannot open /home/sysadmin/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0311_Dealer_schedule (No such file or directory)
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time.sh 0311 05 PM BlackJack
+awk: cannot open /home/sysadmin/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0311_Dealer_schedule (No such file or directory)
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time.sh 0310 05 PM BlackJack
+05:00:00 PM Rahima Figueroa
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time.sh 0310 05 PM Casino
+05:00:00 PM Rahima Figueroa
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time.sh 0310 05 PM Casino
+05:00:00 PM Rahima Figueroa
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time.sh 0310 05 PM
+05:00:00 PM Rahima Figueroa
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh -x roulette_dealer_finder_by_time.sh 0310 05 PM
++ awk -F  {print $1,$2,$5,$6} /home/sysadmin/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule
++ grep 05:00:00 PM
+05:00:00 PM Rahima Figueroa
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi roulette_dealer_finder_by_time_and_game.sh 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh -x roulette_dealer_finder_by_time.sh 0310 05 PM None
++ awk -F  {print $1,$2,$5,$6} /home/sysadmin/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule
++ grep 05:00:00 PM
+05:00:00 PM Rahima Figueroa
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh -x roulette_dealer_finder_by_time.sh 0310 08 PM
++ awk -F  {print $1,$2,$5,$6} /home/sysadmin/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule
++ grep 08:00:00 PM
+08:00:00 PM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh -x roulette_dealer_finder_by_time.sh 0310 08 PM BlackJack
++ awk -F  {print $1,$2,$5,$6} /home/sysadmin/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule
++ grep 08:00:00 PM
+08:00:00 PM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi roulette_dealer_finder_by_time_and_game.sh 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh -x roulette_dealer_finder_by_time.sh 0310 08 PM BlackJack
++ awk -F  {print $1,$2,$5,$6} /home/sysadmin/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule
++ grep 08:00:00 PM
+08:00:00 PM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh -x roulette_dealer_finder_by_time.sh 0310 08 PM BlackJack^C
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi roulette_dealer_finder_by_time_and_game.sh 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh -x roulette_dealer_finder_by_time.sh 0310 08 PM BlackJack
++ awk -F  {print $1,$2,$5,$6} /home/sysadmin/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule
++ grep 08:00:00 PM
+08:00:00 PM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh -x roulette_dealer_finder_by_time.sh 0310 08 PM texashold
++ awk+  -F grep 08:00:00 PM
+ {print $1,$2,$5,$6} /home/sysadmin/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/0310_Dealer_schedule
+08:00:00 PM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh -x roulette_dealer_finder_by_time.sh 0310 08 PM Blackj^Ck
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time_and_game.sh 0310 08 PM Blackjack
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time_and_game.sh 0310 08 PM blackjack
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time_and_game.sh 0310 08 PM texashold
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time_and_game.sh 0310 05 AM roulette
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi roulette_dealer_finder_by_time_and_game.sh 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time_and_game.sh 0310 05 AM roulette
+05:00:00 AM Billy Jones
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time_and_game.sh 0310 05 AM blackjack
+05:00:00 AM Katey Bean
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time_and_game.sh 0310 08 AM blackjack
+08:00:00 AM Rahima Figueroa
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ sh roulette_dealer_finder_by_time_and_game.sh 0310 08 AM texashold
+08:00:00 AM Madina Britton
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ ls -ltr
+total 80
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0310_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0312_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin 1489 Sep 28 13:44 0315_Dealer_schedule
+-rw-r--r-- 1 sysadmin sysadmin  168 Sep 28 14:59 0310_5am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 14:59 0310_8am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:00 0310_2pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:01 0310_8pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:01 0310_11pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:03 0312_5am.sh
+-rw-r--r-- 1 sysadmin sysadmin  168 Sep 28 15:03 0312_8am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:05 0312_8pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:05 0312_11pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:06 0315_5am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:06 0315_8am.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:07 0315_2pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  167 Sep 28 15:11 0312_2pm.sh
+-rw-r--r-- 1 sysadmin sysadmin  312 Sep 28 15:20 Dealers_working_during_losses
+-rw-r--r-- 1 sysadmin sysadmin  314 Sep 28 15:24 Notes_Dealer_Analysis
+-rwxr-xr-x 1 sysadmin sysadmin  156 Sep 28 16:53 roulette_dealer_finder_by_time.sh
+-rwxr-xr-x 1 sysadmin sysadmin  537 Sep 28 18:02 roulette_dealer_finder_by_time_and_game.sh
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ vi Notes_Dealer_Analysis 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cd ..
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cat Dealer_Analysis/Notes_Dealer_Analysis 
+/* Analysis of Dealers_working_during_losses file */
+
+1.The primary dealer working at the times where losses occurred
+
+"Billy Jones" is the person working at all times when losses occurred
+
+2.How many times the dealer worked when major losses occurred
+He has worked all "13 times" when the Major loses has occured
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cat Player_Analysis/Notes_Player_Analysis
+/* Analysis of the Roulette_Losses */
+
+1.The times that loses occured on each day
+	0310 -	5 times
+	0312 -	5 times
+	0315 - 	3 times
+
+2.If there is a certain player that was playing during each of those times
+"Mylie Schdmit" is a player who has played on all these days.
+
+3.The total count of times this player was playing
+
+Command : grep -i "Mylie Schmidt" 0310_win_loss_player_data 0312_win_loss_player_data 0315_win_loss_player_data | wc -l
+
+Number of times the person played combining 0310, 0312 and 0315 - 19 times
+Number of times the person played on 0310 	- 	7 times
+Number of times the person played on 0312	-	7 times
+Number of times the person played on 0315	-	5 times
+
+
+
+
+
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cd Player_Dealer_Correlation
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Dealer_Correlation$ vi Notes_Player_Dealer_Correlation
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Dealer_Correlation$ Player_Dealer_Correlation
+Player_Dealer_Correlation: command not found
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Dealer_Correlation$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Dealer_Correlation$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Dealer_Correlation$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Dealer_Correlation$ vi Notes_Player_Dealer_Correlation 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Dealer_Correlation$ vi Notes_Player_Dealer_Correlation 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Dealer_Correlation$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Dealer_Correlation$ 
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Dealer_Correlation$ ls
+Notes_Player_Dealer_Correlation
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Dealer_Correlation$ cat Notes_Player_Dealer_Correlation 
+/* Player Dealer Correlation */
+
+The two people who are involved in the Lucky Duck Scam are
+Player - Mylie Schmidt
+Dealer - Billy Jones
+
+Findings:
+* Number of times major loses has occured for Lucky Duck in the days March 10, 12 and 15th are 13 times
+
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis$ grep -$* *
+0310_win_loss_player_data:05:00:00 AM	-$82,348	Amirah Schneider,Nola Portillo, Mylie Schmidt,Suhayb Maguire,Millicent Betts,Avi Graves
+0310_win_loss_player_data:08:00:00 AM	-$97,383	Chanelle Tapia, Shelley Dodson , Valentino Smith, Mylie Schmidt
+0310_win_loss_player_data:02:00:00 PM	-$82,348	Jaden Clarkson, Kaidan Sheridan, Mylie Schmidt 
+0310_win_loss_player_data:08:00:00 PM	-$65,348        Mylie Schmidt, Trixie Velasquez, Jerome Klein ,Rahma Buckley
+0310_win_loss_player_data:11:00:00 PM	-$88,383	Mcfadden Wasim, Norman Cooper, Mylie Schmidt
+0312_win_loss_player_data:05:00:00 AM	-$182,300	Montana Kirk, Alysia Goodman, Halima Little, Etienne Brady, Mylie Schmidt
+0312_win_loss_player_data:08:00:00 AM	-$97,383        Rimsha Gardiner,Fern Cleveland, Mylie Schmidt,Kobe Higgins	
+0312_win_loss_player_data:02:00:00 PM	-$82,348        Mae Hail,  Mylie Schmidt,Ayden Beil	
+0312_win_loss_player_data:08:00:00 PM	-$65,792        Tallulah Rawlings,Josie Dawe, Mylie Schmidt,Hakim Stott, Esther Callaghan, Ciaron Villanueva
+0312_win_loss_player_data:11:00:00 PM	-$88,229        Vlad Hatfield,Kerys Frazier,Mya Butler, Mylie Schmidt,Lex Oakley,Elin Wormald	
+0315_win_loss_player_data:05:00:00 AM	-$82,844        Arjan Guzman,Sommer Mann, Mylie Schmidt	
+0315_win_loss_player_data:08:00:00 AM	-$97,001        Lilianna Devlin,Brendan Lester, Mylie Schmidt,Blade Robertson,Derrick Schroeder	
+0315_win_loss_player_data:02:00:00 PM	-$182,419        Mylie Schmidt, Corey Huffman
+
+
+*In all the above record there is one person constant, named "Mylie Schmidt" which is supicious
+
+*Dealer_Schedules for 0310, 0312 and 0315 was filtered out  for the date, time and the dealers who dealt for Roulette
+
+*Which was then further filtered out for the paticular time slots when the major loses occurred, there was one dealer who was involved
+in all the games of roullette named "Billy Jones"
+
+* Out of the 19 games that "Mylie Schmidt" played on all three days, he won "13 games" and for all the 13 games the dealer was "Billy Jones"
+and those were the 13 times, Lucky Duck had a major scam.
+
+*This is how the corelation between the dealer and the player who are involved together in the scam were identified.
+
+
+  
+sysadmin@UbuntuDesktop:~/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Dealer_Correlation$ 
+

@@ -1,0 +1,23 @@
+/* Analysis of the Roulette_Losses */
+
+1.The times that loses occured on each day
+	0310 -	5 times
+	0312 -	5 times
+	0315 - 	3 times
+
+2.If there is a certain player that was playing during each of those times
+"Mylie Schdmit" is a player who has played on all these days.
+
+3.The total count of times this player was playing
+
+Command : grep -i "Mylie Schmidt" 0310_win_loss_player_data 0312_win_loss_player_data 0315_win_loss_player_data | wc -l
+
+Number of times the person played combining 0310, 0312 and 0315 - 19 times
+Number of times the person played on 0310 	- 	7 times
+Number of times the person played on 0312	-	7 times
+Number of times the person played on 0315	-	5 times
+
+
+
+
+
